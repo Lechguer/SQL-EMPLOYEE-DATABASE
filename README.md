@@ -1,7 +1,7 @@
 # SQL Employee Database Project
 
 A comprehensive SQL project that showcases database design, table creation, foreign keys, sample data generation, and effective queries.  
-Perfect for learning SQL or showcasing skills on GitHub.
+
 
 ---
 
