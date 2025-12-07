@@ -1,13 +1,3 @@
-							-- ============================
-							--  SQL EMPLOYEE DATABASE SCHEMA
-							-- ============================
-
-
-
-							-- ============================
-							-- TABLES
-							-- ============================
-
 CREATE TABLE DEPARTMENT(
     DepartmentID INT PRIMARY KEY,
     DepartmentName VARCHAR(50),
@@ -37,9 +27,6 @@ CREATE TABLE EMPLOYEE(
     FOREIGN KEY (DepartmentID) REFERENCES DEPARTMENT(DepartmentID)
 );
 
-								-- ============================
-								-- INSERT DATA
-								-- ============================
 
 -- Insert Departments
 INSERT INTO DEPARTMENT VALUES (1, 'Human Resources', 'Casablanca');
@@ -55,11 +42,7 @@ INSERT INTO JOB VALUES (3, 'HR Manager', 5000, 10000);
 INSERT INTO JOB VALUES (4, 'Accountant', 3000, 7500);
 INSERT INTO JOB VALUES (5, 'Marketing Specialist', 3200, 7800);
 
-								-- ============================
-								-- Insert 13 Employees
-								-- ============================
-
- 
+-- Insert Employee
 INSERT INTO EMPLOYEE VALUES (1, 'Zakaria', 'Elhadi', 'emp1@mail.com', '0610000001', '2021-01-15', 1, 5500, NULL, 1),
  (2, 'Ahmed', 'Baker', 'emp2@mail.com', '0610000002', '2021-02-20', 1, 5200, 1, 1),
  (3, 'Sara', 'Mansouri', 'emp3@mail.com', '0610000003', '2021-03-12', 2, 6000, 1, 2),
