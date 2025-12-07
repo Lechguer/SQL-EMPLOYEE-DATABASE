@@ -1,7 +1,3 @@
--- ===========================================
--- Useful SQL Queries for Employee Database
--- ===========================================
-
 -- 1. Show all employees
 SELECT * FROM EMPLOYEE;
 
