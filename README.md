@@ -58,9 +58,7 @@ DEPARTMENT ──< EMPLOYEE >── JOB
 
 ## 🗺 ER Diagram
 
-👉 [![ER Diagram](https://img.shields.io/badge/ER%20Diagram-Interactive-blue)](https://lechguer.github.io/SQL-EMPLOYEE-DATABASE/er-diagram.html)
-
-> Drag the tables to reposition them · Scroll to zoom · Pan by dragging the canvas
+> 👉 **[Open interactive ER diagram](https://lechguer.github.io/SQL-EMPLOYEE-DATABASE/er-diagram.html)** — drag tables, zoom, pan
 
 ---
 
