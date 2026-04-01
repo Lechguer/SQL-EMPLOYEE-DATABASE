@@ -1,4 +1,4 @@
-# 🗄️ SQL Employee Database
+#  SQL Employee Database
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MySQL%20%7C%20SQLite-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
@@ -7,7 +7,7 @@ A relational database project modelling a company's workforce — covering schem
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SQL-EMPLOYEE-DATABASE/
@@ -18,7 +18,7 @@ SQL-EMPLOYEE-DATABASE/
 
 ---
 
-## 🏗️ Database Schema
+##  Database Schema
 
 ### Tables
 
@@ -56,13 +56,13 @@ DEPARTMENT ──< EMPLOYEE >── JOB
 
 ---
 
-## 🗺 ER Diagram
+##  ER Diagram
 
-> 👉 **[Open interactive ER diagram](https://lechguer.github.io/SQL-EMPLOYEE-DATABASE/er-diagram.html)** — drag tables, zoom, pan
+>  **[Open interactive ER diagram](https://lechguer.github.io/SQL-EMPLOYEE-DATABASE/er-diagram.html)** — drag tables, zoom, pan
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### SQLite
 ```bash
@@ -86,7 +86,7 @@ mysql -u root -p your_db < queries.sql
 
 ---
 
-## 📊 Query Overview
+##  Query Overview
 
 | # | Category | What it answers |
 |---|---|---|
@@ -94,7 +94,7 @@ mysql -u root -p your_db < queries.sql
 | 2 | JOIN | Employee names with job titles |
 | 3 | JOIN | Employees with department & location |
 | 4 | GROUP BY | Headcount per department |
-| 5 | Aggregation | Max / min / avg / total payroll per department |
+| 5 | Aggregation | Max/min / avg / total payroll per department |
 | 6 | Filter | Employees earning above 6 000 |
 | 7 | Data quality | Employees paid outside their job band |
 | 8 | Self-JOIN | Employee ↔ manager name pairs |
@@ -106,7 +106,7 @@ mysql -u root -p your_db < queries.sql
 
 ---
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 - Relational schema design (1-to-many, self-referencing FK)
 - Data integrity via `NOT NULL`, `UNIQUE`, and `CHECK` constraints
@@ -119,6 +119,6 @@ mysql -u root -p your_db < queries.sql
 
 ---
 
-## 🌍 Sample Data
+##  Sample Data
 
 13 employees across 5 Moroccan cities (Casablanca, Rabat, Marrakech, Tangier, Agadir), 5 departments, and 5 job roles.
